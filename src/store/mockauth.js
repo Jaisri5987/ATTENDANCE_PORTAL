@@ -1,0 +1,31 @@
+export default [{
+    email:"hari21032001@gmail.com",
+    password:"Hari21032001",
+    empCode:'E101',
+    id:101,
+    emp_name:"Hariharan",
+    phone:9944943062,
+    manager_id:null,
+    role:"Manager",
+  },
+  {
+      email:"vasunthra21032001@gmail.com",
+      password:"vasunthra21032002",
+      id:102,
+      empCode:'E102',
+      emp_name:"Vasunthra",
+      phone:9944943061,
+      manager_id:101,
+      role:"Backend",
+    },
+    {
+        email:"vijay21032001@gmail.com",
+        password:"vijay21032002",
+        id:103,
+        empCode:'E103',
+        emp_name:"Vijay",
+        phone:9944943063,
+        manager_id:101,
+        role:"Frontend",
+      }
+]
